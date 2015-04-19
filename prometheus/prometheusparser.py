@@ -76,7 +76,7 @@ class PrometheusParser():
         info = {}
         info['runtime'] = self.get_runtime_info(soup)
         info['build'] = self.get_build_info(soup)
-#        info['startup'] = self.get_startup_flags(soup)
+        info['startup'] = self.get_startup_flags(soup)
         info['targets'] = self.get_targets(soup)
 
         return info
