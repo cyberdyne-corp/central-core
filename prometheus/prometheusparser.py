@@ -50,7 +50,6 @@ class PrometheusParser():
             for name, value in zip(fields, values):
                 _name = name.get_text(strip=True)
                 _value = value.get_text(strip=True)
-                print('{}={}'.format(_name, _value))
                 info[_name] = _value
 
         return targets
