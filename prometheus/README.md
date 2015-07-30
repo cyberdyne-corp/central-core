@@ -104,6 +104,22 @@ http :8080/info
 
 ```
 
+## Query metrics
+
+
+Get current session count
+
+```
+http :8080/sessions
+```
+
+
+Get current session rate
+
+```
+http :8080/session-rate
+```
+
 
 # TO DO
 
